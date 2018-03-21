@@ -73,12 +73,24 @@ nav a {
 h2 {
     color: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #777777;
 }
 
 /* content style when there is only one section */
 .oneSection {
-    width: 960px;
+    background-color: #ffffff;
+    width: 920px;
+    padding: 20px;
+    border-bottom: 20px solid #ffffff;
     margin: auto;
+    margin-top: 50px;
+}
+
+/* Float image to left and allow text to wrap around it */
+img {
+    float: left;
+    padding-right: 20px;
 }
 
 /* style of plain text */
