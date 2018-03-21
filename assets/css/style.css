@@ -1,8 +1,10 @@
+/* Add and align header */
 header {
     width: 960px;
     margin: auto;
 }
 
+/* h1 style at top of page */
 h1 {
     background-color: #4aaaa5;
     color: #ffffff;
@@ -10,22 +12,27 @@ h1 {
     padding: 30px;
 }
 
+/* float the nav section to the right */
 nav {
     float: right;
 }
 
+/* clear the float when needed */
 .clear {
     clear: both;
 }
 
+/* style for header on each individual page */
 h2 {
     color: #4aaaa5;
 }
 
+/* style of plain text */
 p {
     color: #777777;
 }
 
+/* add border and copywrite text format at bottom of page */
 .footerText {
     color: #ffffff;
     background-color: #666666;
