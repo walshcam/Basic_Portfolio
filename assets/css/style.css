@@ -92,12 +92,12 @@ h2 {
     height: 240px;
     padding-right: 20px;
     padding-bottom: 20px;
-    float: left; 
+    display: inline-block; 
 }
 
 /* Float image to left and allow text to wrap around it */
 .floatImage {
-    display: inline-block;
+    float: left;
     padding-right: 20px;
     padding-bottom: 20px;
 }
@@ -105,11 +105,11 @@ h2 {
 .imageTextBox {
     color: #ffffff;
     background-color: #4aaaa5;
-    position: absolute;
+    position: relative;
     text-align: center;
     width:320px;
     padding: 20px 0px;
-    bottom: 3%;
+    bottom: 30%;
 }
 
 /* style of plain text */
