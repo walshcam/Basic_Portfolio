@@ -1,3 +1,8 @@
+header {
+    width: 960px;
+    margin: auto;
+}
+
 h1 {
     background-color: #4aaaa5;
     color: #ffffff;
