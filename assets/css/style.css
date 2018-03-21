@@ -8,12 +8,16 @@ header {
 h1 {
     background-color: #4aaaa5;
     color: #ffffff;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
     float: left;
     padding: 30px;
 }
 
 /* float the nav section to the right */
 nav {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
     float: right;
 }
 
@@ -25,15 +29,18 @@ nav {
 /* style for header on each individual page */
 h2 {
     color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 /* style of plain text */
 p {
     color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 /* add border and copywrite text format at bottom of page */
 .footerText {
     color: #ffffff;
     background-color: #666666;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
