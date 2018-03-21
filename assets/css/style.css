@@ -87,16 +87,35 @@ h2 {
     margin-top: 50px;
 }
 
+.container {
+    color: #ffffff;
+    width: 320px;
+    height: 240px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    float: left; 
+}
+
 /* Float image to left and allow text to wrap around it */
 img {
     float: left;
     padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.imageTextBox {
+    position: absolute;
+    bottom: 10%;
 }
 
 /* style of plain text */
 p {
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.formText {
+    margin-bottom: 0px;
 }
 
 /* Positions the footer fixed to the bottom of the page and centered */
