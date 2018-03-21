@@ -17,7 +17,7 @@ header{
     height: 73.6px;
     margin: 0;
     background-color: #ffffff;
-    border-bottom: 10px solid #4aaaa5;
+    border-bottom: 4px solid #cccccc;
 }
 
 /* h1 style at top of page */
@@ -38,6 +38,7 @@ nav {
     /* center navigation bar */
     padding-top: 11.6px;
     margin-top: 0px;
+    cursor: pointer;
 }
 
 /* make navigation list horizontal and put horizontal lines between */
@@ -81,8 +82,8 @@ h2 {
 .oneSection {
     background-color: #ffffff;
     width: 920px;
-    padding: 20px;
-    border-bottom: 20px solid #ffffff;
+    padding: 20px 20px 40px 20px;
+    border: 1px solid #dddddd;
     margin: auto;
     margin-top: 50px;
 }
@@ -100,6 +101,7 @@ h2 {
     float: left;
     padding-right: 20px;
     padding-bottom: 20px;
+    width: 20%;
 }
 
 .imageTextBox {
